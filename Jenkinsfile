@@ -10,7 +10,7 @@ pipeline {
       steps{      
          bat ''' 
          echo installing .NET SDK 6.0
-         choco install dotnet-sdk -y --version=6.0.100
+         echo install dotnet-sdk -y --version=6.0.100
          '''
       }
     }
