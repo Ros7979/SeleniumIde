@@ -3,7 +3,7 @@ pipeline {
    stages {
     stage('Checkout code') {
       steps{      
-         git branch: 'master', url: https://github.com/Ros7979/SeleniumIde.git 
+         git branch: 'master', url: 'https://github.com/Ros7979/SeleniumIde.git' 
       }
     }
     stage('Build Project') {
